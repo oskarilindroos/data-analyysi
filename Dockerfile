@@ -7,5 +7,3 @@ RUN apt-get update && \
     apt-get install -y graphviz
 
 RUN pip install graphviz
-
-USER $NB_UID
